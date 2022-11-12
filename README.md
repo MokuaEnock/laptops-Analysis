@@ -19,12 +19,31 @@ Not great for large datasets
 
 ## Using Python for Flat Files
 
-Because flat files are human readable, you can easily write your own code to parse or understand these files using Python:
+Because flat files are human readable, you can easily write your code to parse or understand these files using Python:
 
 > Open the file
 > Read the text line by line
 > Separate each line's content by the delimiter
 > Store everything in your data structure of choice.
+
+## How Does Web Scraping Work?
+
+Website data is written in HTML (HyperText Markup Language) which uses tags to structure the page. Because HTML and its tags are just text, the text can be accessed using parsers. We'll be using a Python parser called Beautiful Soup.
+
+## Accessing the HTML
+
+#### Manual Access
+
+The quick way to get HTML data is by saving the HTML file to your computer manually. You can do this by clicking Save in your browser.
+
+#### Programmatic Access
+
+Programmatic access is preferred for scalability and reproducibility. It includes two these are:
+1. Downloading HTML files programmatically.
+2. Working with the response content live in your computer's memory using the BeautifulSoup HTML parser
+
 ## References
 
 Pandas flat file - https://pandas.pydata.org/pandas-docs/stable/reference/io.html#flat-file
+
+Beautiful soup - https://www.crummy.com/software/BeautifulSoup/
