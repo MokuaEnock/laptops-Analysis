@@ -14,5 +14,17 @@ Great for small dataset
 
 Lack of standards.
 Data redundancy
-Sharing data can be cumbersome
+Sharing data can be cumbersome.
 Not great for large datasets
+
+## Using Python for Flat Files
+
+Because flat files are human readable, you can easily write your own code to parse or understand these files using Python:
+
+> Open the file
+> Read the text line by line
+> Separate each line's content by the delimiter
+> Store everything in your data structure of choice.
+## References
+
+Pandas flat file - https://pandas.pydata.org/pandas-docs/stable/reference/io.html#flat-file
